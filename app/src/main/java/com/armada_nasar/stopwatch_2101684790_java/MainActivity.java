@@ -17,11 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        TextView timeText = (TextView) findViewById(R.id.timetext);
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView timeText = (TextView) findViewById(R.id.timetext);
         timeText.setText("00:00:00");
         //runTimer();
     }
